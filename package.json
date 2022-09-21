@@ -1,0 +1,27 @@
+{
+  "name": "samp-status",
+  "version": "3.2.7",
+  "description": "Discord bot to send information about any SA:MP server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "logs": "heroku logs --app samp-status -t"
+  },
+  "author": "Focus#7804",
+  "license": "ISC",
+  "engines": {
+    "node": "16.x"
+  },
+  "dependencies": {
+    "@discordjs/builders": "^0.5.0",
+    "@keyv/mongo": "^1.1.0",
+    "chart.js": "^3.4.1",
+    "chartjs-node-canvas": "^3.2.0",
+    "discord.js": "^13.1.0",
+    "dotenv": "^8.6.0",
+    "gamedig": "^2.0.28",
+    "keyv": "^4.0.3",
+    "moment": "^2.29.1",
+    "table": "^6.7.1"
+  }
+}
